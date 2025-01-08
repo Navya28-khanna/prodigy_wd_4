@@ -1,0 +1,72 @@
+/* Reset styles */
+body, h1, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background with clouds */
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://wallpapercave.com/wp/wp5151520.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Container styling */
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Heading */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #ffd700;
+  }
+  
+  /* Input field and button */
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background: #ffd700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ffae00;
+  }
+  
+  /* Weather display */
+  .weather-display {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    font-size: 1.2rem;
+  }
+  
