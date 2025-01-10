@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-container">
+            <img src="image.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Hello, I'm Navya Khanna</h1>
+            <p>A passionate Web Developer dedicated to crafting visually appealing and user-friendly websites.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>Hi, I’m Navya Khanna, a Web Developer with a strong foundation in HTML, CSS, JavaScript, and frameworks like React. I specialize in creating responsive and functional websites that solve real-world problems.</p>
+            <h3>Education</h3>
+            <p>Bachelor of Technology in Computer Science & Engineering</p>
+
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>Frontend Developer Intern:</strong> Worked on creating dynamic user interfaces for a leading e-commerce platform.</li>
+                <li><strong>Freelance Web Developer:</strong> Designed and developed websites for small businesses and startups.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Digital Wardrobe Organizer</h3>
+                <p>An app that recommends outfits based on your wardrobe inventory and body type.</p>
+            </div>
+            <div class="project-card">
+                <h3>Tic-Tac-Toe Game</h3>
+                <p>A web-based game using HTML, CSS, and JavaScript with AI opponent functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js, Node.js</li>
+                <li>Python, SQL</li>
+                <li>Responsive Design</li>
+                <li>Version Control (Git/GitHub)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Navya Khanna. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
